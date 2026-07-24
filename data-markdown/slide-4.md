@@ -21,15 +21,10 @@
 </blockquote>
 <p style="text-align: right; font-style: normal; font-size: 0.85em; margin-top: 0.5em;">— SHACL Spec, <em>Abstract</em></p>
 
-
 +++
 
-
-<div style="position: relative; height: 100vh;">
-  <img src="./data-markdown/pics/releven.svg" style="height: 100%; width: 100%; object-fit: contain; transform: scale(2.5);">
-  <img class="fragment" src="./data-markdown/pics/math.gif" style="position: absolute; top: 10%; right: 0; width: 25%; height: auto;">
-</div>
-
+<img class="r-stretch" src="./data-markdown/pics/releven.svg" style="transform: scale(2.5);">
+<img class="fragment" src="./data-markdown/pics/math.gif" style="position: absolute; top: 10%; right: 0; width: 25%; height: auto;">
 
 +++
 
