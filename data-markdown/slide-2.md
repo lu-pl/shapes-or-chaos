@@ -43,6 +43,14 @@
 
 **Constraint Components** <!-- .element: style="font-size:75px; margin-bottom:1.5em;" --> <br>
 
+<div class="fragment" style="font-size: 0.6em">A <b>Constraint Component</b> is a validation algorithm known to the SHACL engine. <br><b>Constraint Component Parameters</b> invoke and configure a given Constraint Component.</div>
+
+<br>
+
+<div class="fragment" style="font-size: 0.6em">
+  <code>sh:datatype</code> → <code>sh:DatatypeConstraintComponent</code>
+</div>
+
 +++
 
 
