@@ -221,7 +221,7 @@ ex:PersonShape
     sh:or (
       [ sh:in ( ex:Male ex:Female ex:NonBinary ex:Other ) ]
       [ sh:datatype xsd:string ]
-    ) ;
+    )
   ] .
 ```
 
@@ -230,7 +230,7 @@ ex:PersonShape
 **Qualified Value Shapes** <!-- .element: style="font-size:60px; margin-bottom:1.5em;" --> <br>
 
 
-<div class="fragment" style="font-size: 0.8em">Qualified Value Shapes allow to define the condition <br>that a specified number of value nodes conforms to the given shape.</div>
+<div class="fragment" style="font-size: 0.8em">Qualified Value Shapes allow to define the condition <br>that a specified number of value nodes conforms to a given shape.</div>
 
 +++
 
@@ -315,7 +315,7 @@ ex:AddressShape
 ex:PersonShape
 	a sh:NodeShape ;
 	sh:targetClass ex:Person ;
-	sh:property [   # _:b1
+	sh:property [
 		sh:path ex:address ;
 		sh:minCount 1 ;
 		sh:node ex:AddressShape ;  # Composition! <3
